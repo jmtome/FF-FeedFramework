@@ -1,0 +1,58 @@
+{
+  "configurations" : [
+    {
+      "id" : "E5D960A2-DB3C-45DF-89CB-9B91C64C5914",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:FeedFramework.xcodeproj",
+          "identifier" : "FABF6D172A26761F009FE0E9",
+          "name" : "FeedFrameworkTests"
+        },
+        {
+          "containerPath" : "container:FeedFramework.xcodeproj",
+          "identifier" : "FA51C0D42A3A4885002EC274",
+          "name" : "FeedAPIEndToEndTests"
+        },
+        {
+          "containerPath" : "container:FeedFramework.xcodeproj",
+          "identifier" : "FA799A0F2A4B7818004963A6",
+          "name" : "FeedFrameworkCacheIntegrationTests"
+        }
+      ]
+    },
+    "testExecutionOrdering" : "random",
+    "threadSanitizerEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:FeedFramework.xcodeproj",
+        "identifier" : "FA51C0D42A3A4885002EC274",
+        "name" : "FeedAPIEndToEndTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:FeedFramework.xcodeproj",
+        "identifier" : "FABF6D172A26761F009FE0E9",
+        "name" : "FeedFrameworkTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:FeedFramework.xcodeproj",
+        "identifier" : "FA799A0F2A4B7818004963A6",
+        "name" : "FeedFrameworkCacheIntegrationTests"
+      }
+    }
+  ],
+  "version" : 1
+}
